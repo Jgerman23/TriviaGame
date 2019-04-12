@@ -1,0 +1,86 @@
+body{
+    background-image: url(/assets/images/spaceinvaders.jpg);
+}
+
+
+header{
+    background-color: #202124;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    width: 960px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: auto;
+    font-family: 'Press Start 2P', cursive; 
+
+}
+
+h1{
+    float: left;
+    text-align: center;
+    margin: 43px;
+}
+
+
+.totally{
+    font-size: 2em;
+    color: cyan;
+}
+
+.trivial{
+    font-size: 2em;
+    color: yellowgreen;
+}
+
+.trivia{
+    font-size: 2em;
+    color: red;
+}
+
+.col-md-12{
+    width: 960px !important;
+    background-color: #202124;
+    color: white;
+    text-align: center;
+    border: 5px #3f39d5 solid;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.questions{
+
+
+}
+
+.welPLay{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+#score{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+input{
+    margin: 0 5px 0 5px !important;
+}
+
+button{
+    border-radius: 50px !important;
+    background-color: yellow;
+    color: blue;
+}
+
+#start{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#submit{
+    margin-bottom: 10px;
+}
