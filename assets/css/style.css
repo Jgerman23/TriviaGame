@@ -75,12 +75,12 @@ button{
     padding: 25px;
     text-align: center !important;
     line-height: .5em !important;
-    /* overflow: hidden; */
+    
 }
 
 #start{
     margin-bottom: 10px;
-    /* font-weight: bold; */
+   
 }
 
 #submit{
