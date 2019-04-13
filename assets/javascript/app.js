@@ -4,6 +4,7 @@ $(document).ready(function () {
     var intervalId;
     var correctAnswers = 0;
     var incorrectAnswers = 0;
+    
     var labels = ["first", "second", "third", "forth"];
     var myQuestions = [{
         question: "Which is NOT a gaming console?",
@@ -122,7 +123,7 @@ $(document).ready(function () {
             if ($('input:radio[name="' + myQuestions[i].name + '"]:checked').val() === myQuestions[i].choicesAnswer) {
                 correctAnswers++;
                 console.log("Correct");
-            } else {
+            }else {
                 incorrectAnswers++;
                 console.log("Incorrect");
             };
@@ -139,6 +140,7 @@ $(document).ready(function () {
         $("#submit").hide();
         $("#correct").html("Correct: " + correctAnswers);
         $("#incorrect").html("Incorrect: " + incorrectAnswers);
+        
     })
 
     function runTimer() {
@@ -162,6 +164,7 @@ $(document).ready(function () {
         $("#submit").hide();
         $("#correct").html("Correct: " + correctAnswers);
         $("#incorrect").html("Incorrect: " + incorrectAnswers);
+        
         }
     }
 
