@@ -1,10 +1,9 @@
 $(document).ready(function () {
 
-    var number = 20;
+    var number = 60;
     var intervalId;
     var correctAnswers = 0;
     var incorrectAnswers = 0;
-    var unansweredAnswers = 0;
     var labels = ["first", "second", "third", "forth"];
     var myQuestions = [{
         question: "Which is NOT a gaming console?",
@@ -63,7 +62,7 @@ $(document).ready(function () {
         divClass: ".homer"
     },
     {
-        question: "Who TV series such as The Simpsons, Futurama, and Disenchantment?",
+        question: "Who created TV series such as The Simpsons, Futurama, and Disenchantment?",
         choices: ["Justin Roiland", "Matt Groening", "Stan Lee", "Seth Macfarlane"],
         name: "matt",
         choicesAnswer: "Matt Groening",
@@ -82,6 +81,7 @@ $(document).ready(function () {
     $("#timer").hide();
     $("#submit").hide();
     $("#score").hide();
+    $(".questions").hide();
 
     $("#start").on("click", function () {
         $("#start");
@@ -92,6 +92,7 @@ $(document).ready(function () {
     function startGame() {
         $("#start").remove();
         $("#welcome").remove();
+        $(".questions").show();
 
         createQuiz();
     }

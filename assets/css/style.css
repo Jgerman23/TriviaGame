@@ -1,5 +1,5 @@
 body{
-    background-image: url(/assets/images/spaceinvaders.jpg);
+    background-image: url(../images/spaceinvaders.jpg);
 }
 
 
@@ -49,11 +49,6 @@ h1{
     margin-bottom: 40px;
 }
 
-.questions{
-
-
-}
-
 .welPLay{
     font-family: 'Press Start 2P', cursive;
     font-size: 1.5rem;
@@ -71,16 +66,27 @@ input{
 }
 
 button{
-    border-radius: 50px !important;
-    background-color: yellow;
-    color: blue;
+    border-radius: 50% !important;
+    background-color: aqua;
+    color: white;
+    border: #3f39d5 5px solid;
+    font-family: 'Press Start 2P', cursive !important;
+    font-size: .75em !important;
+    padding: 25px;
+    text-align: center !important;
+    line-height: .5em !important;
+    /* overflow: hidden; */
 }
 
 #start{
     margin-bottom: 10px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 #submit{
     margin-bottom: 10px;
+}
+
+.end{
+    margin-top: 20px;
 }
